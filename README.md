@@ -1,3 +1,9 @@
+![Python Version](https://img.shields.io/badge/python-3.10%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Sovereignty Level](https://img.shields.io/badge/Sovereignty-Stage%204%20(Oracle)-magenta)
+![Region](https://img.shields.io/badge/Region-Djelfa%2C%20Algeria-orange)
+![Build](https://img.shields.io/badge/Build-Phoenix%20Protocol-gold)
+
 # 🧠 Sovereign-Node-AI: The Autonomous Sentient Network Brain
 
 **Sovereign-Node-AI** is a pioneering framework designed to transform passive network infrastructure (RTN, Fiber, and RAN) into **autonomous, sentient entities**. Moving beyond traditional reactive automation, this project introduces "Biological Wisdom" into network management.
@@ -24,4 +30,5 @@ Traditional systems like AMAC or ATPC react blindly to signal drops. **Sovereign
 1. **Clone the Repo:**
    ```bash
    git clone [https://github.com/Ahmed-Chaouli/Sovereign-Node-AI.git](https://github.com/Ahmed-Chaouli/Sovereign-Node-AI.git)
+
    cd Sovereign-Node-AI
