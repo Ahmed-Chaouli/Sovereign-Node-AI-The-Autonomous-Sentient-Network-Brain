@@ -1,0 +1,30 @@
+# ==============================================================================
+# Sovereign-Node-AI: Global Control Panel
+# ==============================================================================
+
+# 1. Paths & Infrastructure
+network:
+  db_file: "LinkMind_Network.db"
+  logs_directory: "Input_Logs"
+  model_path: "linkmind_brain.joblib"
+  report_name: "Sovereign_Lifecycle_Report.xlsx"
+
+# 2. Physics & Logic Thresholds (Customize for your region)
+thresholds:
+  gap_db: -3.0               # Signal deviation from target
+  overheat_celsius: 55.0     # Internal board temperature limit
+  retention_days: 60         # How long to keep history for prediction
+
+# 3. Protocol Zero & Phoenix Logic
+# Mathematical Probability Thresholds
+probability:
+  critical_failure: 0.80     # Trigger "Last Stand" (Nuclear Mode)
+  safe_recovery: 0.15        # Trigger "Phoenix" (Recovery Mode)
+  prediction_horizon: 24     # Predict failures 24 hours in advance
+
+# 4. Hardware Profiles (Radio Parameters)
+radio:
+  default_tx_power: 20
+  survival_bandwidth: "7mhz"
+  recovery_bandwidth: "56mhz"
+  survival_modulation: "qpsk"
